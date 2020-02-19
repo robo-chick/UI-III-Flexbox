@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	max-width: 100%;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.navbar {
+	display: flex;
+	width: 100%;
+	background-color: lightskyblue;
+	position: fixed;
+}
+
+header nav a {
+	display: flex;
+	width: 85%;
+	margin: auto;
+    justify-content: space-evenly;
+	text-decoration: none;
+	color: lightslategray;
+	
+}
+
+.logo {
+	display: flex;
+	width: 75%;
+	
+}
+
+#top .container {
+	display: flex;
+	}
+
+#top .get-started-btn {
+	display: flex;
+	align-self: flex-end;
+	height: 40px;
+	width: 75px;
+    background-color: white;
+	border: 1px solid black;
+}
+
+#top h1 {
+	font-size: 150px;
+	text-align: center;
+	padding: 10px;
+}
+
+#top img {
+	height: 500px;
+	width: 500px;
+	margin-top: 100px;
+}
+
+#middle .container {
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.features {
+	display: inline-block;
+	width: 35%;
+	margin: 50px 0px 50px 200px;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.about {
+	display: inline-block;
+	width: 35%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 0 10%;
+	width: 75%;
+	height: 300px;
+}
+
+#bottom .container-two {
+	display: inline-block;
+	width: 100%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.services {
+	display: inline-block;
+	width: 25%;
+	margin-left: 8%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.products {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.vision {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+address {
+	display: inline-block;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 30px;
+	border-top: 1px solid;
+}
+
+address .contact {
+	line-height: 1.7;
+	margin-top: 1%;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5%;
+}
