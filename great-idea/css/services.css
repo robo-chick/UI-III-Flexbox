@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5 {
 	position: fixed;
 }
 
+
+
 header nav a {
 	display: flex;
 	width: 85%;
@@ -87,3 +89,11 @@ header nav a {
 	
 }
 
+.container {
+
+	margin: 0 auto;
+}
+
+.top-img {
+    width: 100%;
+}
