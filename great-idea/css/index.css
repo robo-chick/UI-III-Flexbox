@@ -102,13 +102,15 @@ header nav a {
 
 #top .container {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;	
+	padding: 5%;
 	}
 
 #top .get-started-btn {
-	display: flex;
-	align-self: flex-end;
-	height: 40px;
-	width: 75px;
+	
+	height: 35px;
+	width: 150px;
     background-color: white;
 	border: 1px solid black;
 }
@@ -116,13 +118,15 @@ header nav a {
 #top h1 {
 	font-size: 150px;
 	text-align: center;
-	padding: 10px;
+	
 }
 
 #top img {
+	display: flex;
+
 	height: 500px;
 	width: 500px;
-	margin-top: 100px;
+	
 }
 
 #middle .container {
