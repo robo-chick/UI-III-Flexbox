@@ -63,21 +63,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-* {
-	max-width: 100%;
-}
-
-p {
-	font-size: 20px;
-}
-
-h2 {
-	font-size: 20px;
-}
-
-.navbar {
+.services-nav {
 	display: flex;
 	width: 100%;
 	background-color: lightskyblue;
@@ -100,104 +87,3 @@ header nav a {
 	
 }
 
-#top .container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;	
-	padding-top: 4%;
-	}
-
-#top .get-started-btn {
-	margin: 0 0 2% 25%;
-	height: 35px;
-	width: 150px;
-    background-color: white;
-	border: 1px solid black;
-}
-
-#top h1 {
-	font-size: 150px;
-	text-align: center;
-	
-}
-
-#top img {
-	display: flex;
-
-	height: 500px;
-	width: 500px;
-	
-}
-
-#middle .container {
-	display: flex;
-	justify-content: flex-start;
-	padding: 2%;
-	border-top: 1px solid;
-}
-
-.features {
-	margin-left: 9%;
-	width: 35%;
-	line-height: 1.2;
-	text-align: left;
-}
-
-.about {
-	margin-left: 2%;
-	width: 35%;
-	line-height: 1.2;
-	text-align: left;
-}
-
-.middle-img {
-	margin: 0 10%;
-	width: 75%;
-	height: 300px;
-}
-
-#bottom .container-two {
-	display: flex;
-	padding: 2%;
-	margin: 2%;
-}
-
-.services {
-	width: 24%;
-	margin-left: 8%;
-	line-height: 1.2;
-	text-align: left;
-}
-
-.products {
-	width: 24%;
-	margin-left: 2%;
-	line-height: 1.2;
-	text-align: left;
-}
-
-.vision {
-	width: 24%;
-	margin-left: 2%;
-	line-height: 1.2;
-	text-align: left;
-}
-
-address {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	padding-top: 5%;
-	border-top: 1px solid;
-	margin-left: 11%;
-}
-
-address .contact {
-	line-height: 1.7;
-	margin-top: 1%;
-}
-
-footer {
-	text-align: center;
-	margin-bottom: 5%;
-}
