@@ -85,15 +85,34 @@ header nav a {
 
 .logo {
 	display: flex;
-	width: 75%;
-	
-}
-
-.container {
-
-	margin: 0 auto;
+	width: 70%;
+	margin-right: 7%;
 }
 
 .top-img {
-    width: 100%;
+	width: 87%;
+	margin-left: 5%;
+	margin-top: 5%
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.container div {
+	margin: 2% 7% 2% 5%;
+	line-height: 1.4;
+}
+
+.container-middle {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container-middle div {
+	border: 1px solid;
+	padding: 0 2%
+}
+
